@@ -8,7 +8,7 @@
 
 $fa-font-path: "../webfonts";
 
-// Bootstrap
+// Bootstrap test
 @import '~bootstrap/scss/bootstrap';
 @import '~admin-lte/dist/css/adminlte.css';
 
@@ -19,4 +19,9 @@ $fa-font-path: "../webfonts";
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active{
+  background-color: #006fe6;
+  color: #ffffff;
 }
